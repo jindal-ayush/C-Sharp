@@ -23,7 +23,15 @@ namespace ConsoleApp2
             cd1.display();
             cd2.display();
 
+
         }
+
+
+        //static void Main(string[] args)
+        // {
+        //     Program p = new Program();
+        //     p.Test2();
+        // }
 
     }
 }

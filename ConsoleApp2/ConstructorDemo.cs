@@ -12,11 +12,11 @@ namespace ConsoleApp2
         }
         public ConstructorDemo()
         {
-            Console.WriteLine("static nom construcor is called");
+            Console.WriteLine("static non construcor is called");
         }
         public static void Main(string[] args)
         {
-
+                
         }
     }
 }

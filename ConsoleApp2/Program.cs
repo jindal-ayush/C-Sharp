@@ -1,14 +1,24 @@
-﻿class Program
-{
-    int i;
-    bool b;
+﻿using ConsoleApp2;
 
-    static void Main(string[] args)
+class Program : Specifiers
+{
+    //int i;
+    //bool b;
+
+    //static void Main(string[] args)
+    //{
+    //    Program p = new Program();
+    //    Console.WriteLine("Object created successfully");
+    //    Console.WriteLine(p.i);
+    //    Console.WriteLine(p.b);
+    //    Console.ReadLine();
+    //}
+    static void Main()
     {
         Program p = new Program();
-        Console.WriteLine("Object created successfully");
-        Console.WriteLine(p.i);
-        Console.WriteLine(p.b);
-        Console.ReadLine();
+        p.Test2();
+        p.Test3();
+        p.Test4();
+        p.Test5();
     }
 }
